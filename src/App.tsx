@@ -5,6 +5,8 @@ import React from "react";
 import "./App.css";
 import { smartConfig } from "./config";
 
+import MyPatient from "./MyPatient";
+
 const smartClient = new SMARTClient(smartConfig);
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
       <AppHeader appName="My First Commure App" fixedToTop />
       <div className="hello-world-container">
         <p>Hello world!</p>
+        <MyPatient />
       </div>
     </CommureSmartApp>
   );
