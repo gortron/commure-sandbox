@@ -1,6 +1,7 @@
 import { StandalonePreference } from "@commure/smart-core";
 
 const fhirBaseUrl = process.env.REACT_APP_FHIR_BASE_URL;
+// const fhirBaseUrl = "https://api-50574254.developer.commure.com/api/v1/r4";
 
 if (fhirBaseUrl === undefined) {
   throw new Error(
